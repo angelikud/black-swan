@@ -111,13 +111,13 @@ header {
 
 .logo-icon {
     width: 42px; height: 42px;
-    background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+    background: var(--primary);
     border-radius: 10px;
     padding: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 12px rgba(45, 227, 230, 0.2);
+    box-shadow: 0 4px 20px rgba(45, 227, 230, 0.3);
 }
 
 .logo-icon img {
@@ -308,6 +308,15 @@ nav a:hover { color: var(--text-primary); }
 }
 
 .hero-visual { position: relative; }
+
+.hero-mockup-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 40px 80px rgba(0, 0, 0, 0.4));
+}
 
 .phone-mockup {
     width: 100%;
